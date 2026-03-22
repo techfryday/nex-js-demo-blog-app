@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "10 Best Next.js Admin Dashboard Templates in 2026 (For Real SaaS Projects)",
+      "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*QDEcjzp3l4qX_oni",
+      "content": "If you have ever built a SaaS product, you already know this truth: the admin dashboard looks simple… until you start building it. Charts. Tables. Filters. Roles. Permissions. Dark mode. Responsive layouts. Authentication. Suddenly, your small internal panel becomes a full project.",
+      "likes": 13
+    },
+    {
+      "id": "2",
+      "title": "My Docker examples are now part of the official Next.js Documentation",
+      "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*1QeASSA0xp0Dxev8TlflBg.png",
+      "content": "I’ve always believed in the power of open source. Many of the tools we use every day exist because developers choose to share their work with the world. Being able to contribute back is something I value deeply. Today, I’m happy to share that my Docker examples for containerizing Next.js applications were merged into the official Next.js repository and part of official Next.js documentation.",
+      "likes": 0
+    },
+    {
+      "id": "3",
+      "title": "How to connect Next.js 16 with MySQL using Drizzle ORM: A straightforward guide with a concrete example",
+      "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*maDxoxDQWn1SRTNc5WRgSA.png",
+      "content": "When developing a web application, it is essential to have an efficient way of managing your data. MySQL is a widely used relational database that offers a reliable solution for this. Connecting MySQL to Next.js enables your application to interact seamlessly with your data, whether you are inserting, fetching, updating or deleting records.",
+      "likes": 1
+    },
+    {
+      "id": "4",
+      "title": "Next.js on Vite: Why the 50% Bundle Drop Is Finally Real (And What It Actually Means)",
+      "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*5J9UTHyfzTHqE4dgRsWl1Q.png",
+      "content": "If you’ve been comparing Vite to Next.js lately, you’re going to want to hear this. For years, there was this fundamental unfairness baked into how developers evaluated these tools. Teams would benchmark Vite’s blistering dev server speed against Next.js’s production-grade SSR capabilities and wonder why the comparison felt off. Here’s the thing: it was off. You were comparing a build tool against a vertically integrated framework-plus-hosting monolith. It was never apples to apples. It was an apple against an entire fruit basket.",
+      "likes": 0
+    },
+    {
+      "id": "5",
+      "title": "How I Migrated a Live Production Site from Express/Vanilla JS to Next.js — Without Breaking Anything",
+      "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*NgV-KvsuGqOaPcFOcRSX6w.png",
+      "content": "Back in 2024/25, I built The SMM Place — a content platform for a Digital Media Agency — on what felt like a perfectly reasonable stack: Node.js/Express serving static HTML, client-side Firestore for data fetching, and vanilla JavaScript for interactivity. It shipped fast. It worked. And it quietly accumulated a handful of problems that only became obvious once the site was running in production with real content and real traffic expectations.",
+      "likes": 2
+    }
+  ]
+}
