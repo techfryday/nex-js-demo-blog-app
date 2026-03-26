@@ -5,7 +5,7 @@
       "title": "10 Best Next.js Admin Dashboard Templates in 2026 (For Real SaaS Projects)",
       "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*QDEcjzp3l4qX_oni",
       "content": "If you have ever built a SaaS product, you already know this truth: the admin dashboard looks simple… until you start building it. Charts. Tables. Filters. Roles. Permissions. Dark mode. Responsive layouts. Authentication. Suddenly, your small internal panel becomes a full project.",
-      "likes": 13
+      "likes": 20
     },
     {
       "id": "2",
@@ -35,5 +35,6 @@
       "content": "Back in 2024/25, I built The SMM Place — a content platform for a Digital Media Agency — on what felt like a perfectly reasonable stack: Node.js/Express serving static HTML, client-side Firestore for data fetching, and vanilla JavaScript for interactivity. It shipped fast. It worked. And it quietly accumulated a handful of problems that only became obvious once the site was running in production with real content and real traffic expectations.",
       "likes": 2
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

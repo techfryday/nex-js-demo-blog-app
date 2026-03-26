@@ -1,0 +1,27 @@
+.myheading {
+    font-family: sans-serif;
+}
+
+
+.articleListItem {
+    list-style-type: none;
+    box-shadow: 0px 0px 5px 5px rgb(201, 201, 201);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.articleListItem:hover {
+    padding: 25px;
+    box-shadow: inset 0px 0px 0px 5px rgb(0, 132, 255);
+}
+
+.linkStyle{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: inherit;     
+    outline: none;      
+    cursor: pointer;
+}

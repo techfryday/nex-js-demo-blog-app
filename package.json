@@ -3,18 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "json-server": "json-server --watch db.json --port 8888",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "jose": "^6.2.2",
     "json-server": "^1.0.0-beta.14",
+    "mongodb": "^7.1.0",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "swr": "^2.4.1"
   },
   "devDependencies": {
+    "@types/node": "25.5.0",
+    "@types/react": "19.2.14",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.1.6"
