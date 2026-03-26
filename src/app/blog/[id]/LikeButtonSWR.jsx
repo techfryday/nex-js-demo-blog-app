@@ -1,9 +1,19 @@
 'use client'
 
 import { postUrl } from "@/app/_constants/apiConstants"
+import styled from "styled-components";
 // import { useState } from "react"
 import useSWR from "swr"
 
+const Button = styled.button`
+    background: rgb(0, 132, 255);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+`;
 
 const fetcher = (...args)=> fetch(...args).then(res=>res.json())
 
@@ -36,7 +46,7 @@ export default function LikeButtonSWR({postId}){
     return(
         <>
         
-            <button onClick={incrementLike}>{data.likes} Likes</button>
+            <Button onClick={incrementLike}>{data.likes} Likes</Button>
         </>
     )
 }
