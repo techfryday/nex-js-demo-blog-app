@@ -7,6 +7,7 @@ import Link from "next/link"
 export default function Blog(){
 
     let [posts, setPosts] = useState([])
+    
     useEffect(()=>{
         fetch(postsListUrl).then(res=>res.json())
         .then(resdata=>setPosts(resdata))
