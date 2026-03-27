@@ -1,7 +1,9 @@
 import { postUrl } from "@/app/_constants/apiConstants";
 import LikeButton from "./LikeButton";
-
+import styles from "./page.module.css"
+import LikeButtonSWR from "./LikeButtonSWR";
 export async function generateStaticParams(){
+    // Fetch()
     return [
         {id: "1"},
         {id: "3"}
@@ -35,11 +37,14 @@ export default async function Article(props){
 
     return (
         <>
-            <h3>{article.title}</h3>
+            <h3 className={styles.myheading}>{article.title}</h3>
             <img src={article.image} alt="" height={250}/>
             <p>{article.content}</p>
 
-            <LikeButton initialLikes={article.likes} postId={article.id} />
+            {/* <LikeButton initialLikes={article.likes} postId={article.id} /> */}
+            <LikeButtonSWR initialLikes={article.likes} postId={article.id} />
+
+           
         </>
     )
 }
